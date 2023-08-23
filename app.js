@@ -8,7 +8,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
 
 const appSettings = {
-  databaseURL: "https://shopping-list-40d2c-default-rtdb.firebaseio.com/",
+  databaseURL: "Your database URL",
 };
 
 const app = initializeApp(appSettings);
@@ -69,5 +69,3 @@ function appendItemToShoppingListEl(item) {
 
   shoppingListEl.append(newEl);
 }
-
-// https://www.youtube.com/watch?v=UFD4SP91tSM&list=PLcSrlX4GIkQDUzxMMgpHSBFD6bSha_PJY&index=1 1 10 26
