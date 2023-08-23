@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "shopping-list",
   "dependencies": {},
   "devDependencies": {
     "vite": "latest"
